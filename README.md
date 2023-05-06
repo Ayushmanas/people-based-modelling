@@ -29,10 +29,12 @@ Requirements :
     mlflow (latest ver.)
 
 You might need to install some of these libraries before hand, type in anaconda prompt, or at the start of the notebook :
+#
   pip install pyspark
   pip install hyperopt
   pip install mlflow
 
-Run these on your command line, to install xgboost
+Run these on your command line, to install xgboost :
+#
   conda install -c conda-forge xgboost
   conda install -c anaconda py-xgboost
