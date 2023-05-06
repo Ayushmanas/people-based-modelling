@@ -12,3 +12,27 @@ This approach helps us to target the best potential customers who can give us be
 
 Remember this process is a recreation of PySpark version that used Big Data, as the real world implementation of this works usually on Big Data.
 (Although they are pretty similar).
+
+
+Requirements :
+  # Languages
+    Python 3.0
+    PySpark (latest; for supporting hyperopt)
+
+  # Modules/Libraries :
+    numpy
+    pandas
+    seaborn
+    sklearn
+    xgboost
+    hyperopt
+    mlflow (latest ver.)
+
+You might need to install some of these libraries before hand, type in anaconda prompt, or at the start of the notebook :
+  pip install pyspark
+  pip install hyperopt
+  pip install mlflow
+
+Run these on your command line, to install xgboost
+  conda install -c conda-forge xgboost
+  conda install -c anaconda py-xgboost
