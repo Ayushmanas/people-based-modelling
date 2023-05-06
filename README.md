@@ -38,3 +38,5 @@ Run these on your command line, to install xgboost :
   #
     conda install -c conda-forge xgboost
     conda install -c anaconda py-xgboost
+
+P.S. - Any form feedback is appriciated! Thanks for reading ! :)
